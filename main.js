@@ -1,8 +1,8 @@
-const generateBlocksInterval = (totalDiv = 25, w = 50, h = 50) => {
+const generateBlocksInterval = (totalDiv = 100, w = 50, h = 50) => {
     let sec = document.createElement('section');
     let widthD = (totalDiv*w)/5;
     sec.style.width = widthD + 'px';
-    sec.style.height='250px';
+    sec.style.height='auto';
     sec.style.background='gray';
     sec.style.display = 'flex';
     sec.style.flexWrap = 'wrap';
